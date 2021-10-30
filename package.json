@@ -1,0 +1,37 @@
+{
+  "name": "nakman",
+  "version": "1.0.0",
+  "description": "nakman: \"Stop using Postman\"!",
+  "main": "index.js",
+  "scripts": {
+    "start": "snowpack dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tranminhnhat1005/electron-nakman.git"
+  },
+  "keywords": [
+    "postman",
+    "postman",
+    "clone"
+  ],
+  "author": "minhnhat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tranminhnhat1005/electron-nakman/issues"
+  },
+  "homepage": "https://github.com/tranminhnhat1005/electron-nakman#readme",
+  "dependencies": {
+    "@codemirror/basic-setup": "^0.19.0",
+    "@codemirror/commands": "^0.19.5",
+    "@codemirror/lang-json": "^0.19.1",
+    "@codemirror/view": "^0.19.9",
+    "@popperjs/core": "^2.10.2",
+    "axios": "^0.24.0",
+    "bootstrap": "^5.1.3",
+    "pretty-bytes": "^5.6.0"
+  },
+  "devDependencies": {
+    "snowpack": "^3.8.8"
+  }
+}
